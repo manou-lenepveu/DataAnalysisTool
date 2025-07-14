@@ -1,0 +1,23 @@
+@model dynamic
+
+<h2>Exploration rapide du dataset Iris</h2>
+
+<p>Nombre total d'enregistrements: <strong>@Model.Count</strong></p>
+
+<h3>Répartition par espèce</h3>
+<ul>
+    @foreach (var s in Model.Species)
+    {
+        <li>
+            <strong>@s.Species</strong> : <span>@s.Count</span>
+        </li>
+    }
+</ul>
+
+<h3>Statistiques petal_length</h3>
+<table class="table">
+    <tr><td>Min</td><td>@Model.PetalStats.Min</td></tr>
+    <tr><td>Max</td><td>@Model.PetalStats.Max</td></tr>
+    <tr><td>Moyenne</td><td>@Model.PetalStats.Mean.ToString("F2")</td></tr>
+    <tr><td>Ecart-Type</td><td>@Model.PetalStats.Std.ToString("F2")</td></tr>
+</table>

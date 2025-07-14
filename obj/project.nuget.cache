@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "FG0aWH7/Rey1R2s5Rhd7lxtAgjQSKt/3fbpA1ywryllSrId1gkjEga74x+ckMX0s8yCS5pf1/q6MaG8lyLk9Bg==",
+  "success": true,
+  "projectFilePath": "/home/manou/webDevelopment/DataAnalysisTool/DataAnalysisTool.csproj",
+  "expectedPackageFiles": [
+    "/home/manou/.nuget/packages/csvhelper/33.1.0/csvhelper.33.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

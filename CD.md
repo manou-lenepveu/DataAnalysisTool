@@ -22,4 +22,13 @@ Livrables:
     - iris.csv nettoyé
     - Base PostgreSQL iris-db, table flowers
     - Endpoint /api/iris/stats (JSON)
-    - Vue Razor Index.cshtml  
+    - Vue Razor Index.cshtml
+
+Schéma SQL:
+
+CREATE TABLE flowers (
+	id SERIAL PRIMARY KEY,
+	sepal_length REAL, sepal_width REAL,
+	petal_length REAL, petal_width REAL,
+	species TEXT
+);
