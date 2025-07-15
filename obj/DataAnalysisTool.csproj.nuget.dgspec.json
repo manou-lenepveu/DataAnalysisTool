@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/manou/webDevelopment/DataAnalysisTool/DataAnalysisTool.csproj": {}
+    "/home/mit/Documents/dotnet/DataAnalysisTool/DataAnalysisTool.csproj": {}
   },
   "projects": {
-    "/home/manou/webDevelopment/DataAnalysisTool/DataAnalysisTool.csproj": {
+    "/home/mit/Documents/dotnet/DataAnalysisTool/DataAnalysisTool.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/manou/webDevelopment/DataAnalysisTool/DataAnalysisTool.csproj",
+        "projectUniqueName": "/home/mit/Documents/dotnet/DataAnalysisTool/DataAnalysisTool.csproj",
         "projectName": "DataAnalysisTool",
-        "projectPath": "/home/manou/webDevelopment/DataAnalysisTool/DataAnalysisTool.csproj",
-        "packagesPath": "/home/manou/.nuget/packages/",
-        "outputPath": "/home/manou/webDevelopment/DataAnalysisTool/obj/",
+        "projectPath": "/home/mit/Documents/dotnet/DataAnalysisTool/DataAnalysisTool.csproj",
+        "packagesPath": "/home/mit/.nuget/packages/",
+        "outputPath": "/home/mit/Documents/dotnet/DataAnalysisTool/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/manou/.nuget/NuGet/NuGet.Config"
+          "/home/mit/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -41,6 +41,16 @@
             "CsvHelper": {
               "target": "Package",
               "version": "[33.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.7, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[9.0.4, )"
             }
           },
           "imports": [

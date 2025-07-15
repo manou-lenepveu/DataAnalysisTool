@@ -15,5 +15,5 @@ public class IrisRow
     public float PetalWidth { get; set; }
 
     [Name("species")]
-    public string Species { get; set; }
+    public string Species { get; set; } = "";
 }
